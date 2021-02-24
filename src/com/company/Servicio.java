@@ -17,6 +17,9 @@ public class Servicio {
         this.nombreDePersona = nombreDePersona;
     }
 
+    public Servicio() {
+    }
+
     public double getCostoPorHora() {
         return costoPorHora;
     }
